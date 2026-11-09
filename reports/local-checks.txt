@@ -1,0 +1,31 @@
+Code commit: 8f2f95fa54fc9d6310de7191b87046657929c996
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+Command: python -m unittest discover -s tests -t . -v
+
+test_click_does_not_leave_shape (tests.test_gui.GuiTests.test_click_does_not_leave_shape) ... ok
+test_conversion_button (tests.test_gui.GuiTests.test_conversion_button) ... ok
+test_conversion_edit_and_error (tests.test_gui.GuiTests.test_conversion_edit_and_error) ... ok
+test_ellipse_and_line (tests.test_gui.GuiTests.test_ellipse_and_line) ... ok
+test_empty_text (tests.test_gui.GuiTests.test_empty_text) ... ok
+test_file_exit (tests.test_gui.GuiTests.test_file_exit) ... ok
+test_list_selection_event (tests.test_gui.GuiTests.test_list_selection_event) ... ok
+test_rectangle_reverse_drag (tests.test_gui.GuiTests.test_rectangle_reverse_drag) ... ok
+test_show_button (tests.test_gui.GuiTests.test_show_button) ... ok
+test_undo (tests.test_gui.GuiTests.test_undo) ... ok
+test_bad_rates_and_currency (tests.test_logic.LogicTests.test_bad_rates_and_currency) ... ok
+test_bounds_all_directions (tests.test_logic.LogicTests.test_bounds_all_directions) ... ok
+test_conversion_known_values (tests.test_logic.LogicTests.test_conversion_known_values) ... ok
+test_custom_rates (tests.test_logic.LogicTests.test_custom_rates) ... ok
+test_decimal_input (tests.test_logic.LogicTests.test_decimal_input) ... ok
+test_invalid_amounts (tests.test_logic.LogicTests.test_invalid_amounts) ... ok
+test_large_conversion (tests.test_logic.LogicTests.test_large_conversion) ... ok
+test_positive_rate (tests.test_logic.LogicTests.test_positive_rate) ... ok
+test_text (tests.test_logic.LogicTests.test_text) ... ok
+test_zero_and_same_currency (tests.test_logic.LogicTests.test_zero_and_same_currency) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.193s
+
+OK
+
+Exit code: 0
